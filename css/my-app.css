@@ -56,3 +56,8 @@ div[class*="col-"] {
   height: 44px;
   vertical-align: middle;
 }
+
+
+.navbar {
+  background: #f19ec2;
+}
