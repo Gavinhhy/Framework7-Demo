@@ -18,6 +18,11 @@ myApp.onPageInit('about', function (page) {
     });
 });
 
+$$(document).on('pageInit', '.page[data-page="about"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+  myApp.alert('Here comes About page');
+})
+
 var mySwiper1 = myApp.swiper('.swiper-1', {
   pagination:'.swiper-1 .swiper-pagination',
   spaceBetween: 5,
