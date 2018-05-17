@@ -18,6 +18,41 @@ myApp.onPageInit('about', function (page) {
     });
 });
 
+$$(document).on('pageInit', '.page[data-page="xkz"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+
+
+$$(document).on('pageInit', '.page[data-page="gtg"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+$$(document).on('pageInit', '.page[data-page="xed"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+$$(document).on('pageInit', '.page[data-page="ded"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+$$(document).on('pageInit', '.page[data-page="dzm"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+$$(document).on('pageInit', '.page[data-page="wzx"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+$$(document).on('pageInit', '.page[data-page="fkk"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+$$(document).on('pageInit', '.page[data-page="fkzd"]', function (e) {
+  // Following code will be executed for page with data-page attribute equal to "about"
+//  myApp.alert('Here comes About page');
+})
+
 var mySwiper1 = myApp.swiper('.swiper-1', {
   pagination:'.swiper-1 .swiper-pagination',
   spaceBetween: 5,
