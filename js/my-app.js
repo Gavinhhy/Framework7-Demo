@@ -78,17 +78,17 @@ ptrContent.on('refresh', function (e) {
         // 随机作者
         var author = authors[Math.floor(Math.random() * authors.length)];
         // 列表元素的HTML字符串
-        var itemHTML = '<li class="item-content">' +
-                          '<div class="item-media"><img src="' + picURL + '" width="44"/></div>' +
-                          '<div class="item-inner">' +
-                            '<div class="item-title-row">' +
-                              '<div class="item-title">' + song + '</div>' +
-                            '</div>' +
-                            '<div class="item-subtitle">' + author + '</div>' +
-                          '</div>' +
-                        '</li>';
-        // 前插新列表元素
-        ptrContent.find('ul').prepend(itemHTML);
+        //        var itemHTML = '<li class="item-content">' +
+        //                         '<div class="item-media"><img src="' + picURL + '" width="44"/></div>' +
+        //                       '<div class="item-inner">' +
+        //                       '<div class="item-title-row">' +
+        //                       '<div class="item-title">' + song + '</div>' +
+        //                   '</div>' +
+        //                 '<div class="item-subtitle">' + author + '</div>' +
+        //             '</div>' +
+        //         '</li>';
+        //// 前插新列表元素
+        //ptrContent.find('ul').prepend(itemHTML);
         // 加载完毕需要重置
         myApp.pullToRefreshDone();
     }, 2000);
